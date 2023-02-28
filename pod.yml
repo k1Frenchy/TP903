@@ -1,0 +1,12 @@
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: podkillianbarthelemy
+  labels:
+    app: motd
+    env: prod
+spec:
+  containers:
+  - name: motd
+    image: frenchy51/motd-api
